@@ -12,9 +12,12 @@ jobs:
         with:
           path: ~/.stack 
           key: ${{ runner.os }}-${{ hashFiles('**/stack.yaml.lock') }}
+          save-always: true
       - run: |
           stack build
           stack exec myblog clean
           stack exec myblog build
       - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
       - uses: actions/deploy-pages@v4
