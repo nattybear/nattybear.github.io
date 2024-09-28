@@ -15,7 +15,6 @@ jobs:
           save-always: true
       - run: |
           stack build
-          stack exec myblog clean
           stack exec myblog build
       - uses: actions/upload-pages-artifact@v3
         with:
