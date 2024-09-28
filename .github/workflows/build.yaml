@@ -9,7 +9,7 @@ jobs:
         with:
           path: ~/.stack 
           key: ${{ runner.os }}-${{ hashFiles('**/stack.yaml.lock')
-        run: |
+      - run: |
           stack build
           stack exec myblog clean
           stack exec myblog build
