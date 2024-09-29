@@ -8,3 +8,7 @@ $E = mc^2$
 $$\begin{prooftree}
   \AxiomC{$P\land Q$} \UnaryInfC{$Q$}
     \end{prooftree}$$
+
+\begin{prooftree}
+  \AxiomC{$P$} \UnaryInfC{$P\lor Q$}
+    \end{prooftree}
