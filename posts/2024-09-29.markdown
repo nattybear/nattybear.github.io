@@ -1,1 +1,5 @@
-토익 시험 보러 와서 영어 공부는 안 하고 어제 온 책 **Essentials of Programming Language** 읽고 있다.
+## 토익
+토익 시험 보러 와서 영어 공부는 안 하고 어제 온 책 *Essentials of Programming Language* 읽고 있다.
+
+## 수식 연습
+$E = mc^2$
