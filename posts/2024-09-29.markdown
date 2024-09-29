@@ -4,11 +4,5 @@
 ## 수식 연습
 $E = mc^2$
 
-## 증명 나무 연습
-$$\begin{prooftree}
-  \AxiomC{$P\land Q$} \UnaryInfC{$Q$}
-    \end{prooftree}$$
-
-\begin{prooftree}
-  \AxiomC{$P$} \UnaryInfC{$P\lor Q$}
-    \end{prooftree}
+## 증명 나무
+증명 나무 그리는 거 왜 이렇게 재밌지? 책 읽으면서 연습 문제 진지하게 풀고 있다. 아직 Hakyll에서 증명 나무 처리하는 법을 모르겠다. 대신 [Gist](https://gist.github.com/nattybear/3078ab5b96514a93c357e2fdd02b0065)에서 증명 나무를 지원하길래 그곳에 답안을 적고 있다.
