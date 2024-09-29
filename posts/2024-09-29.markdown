@@ -5,21 +5,6 @@
 $E = mc^2$
 
 ## 증명 나무 연습
-\begin{prooftree}
-\AxiomC{}
-\RightLabel{Hyp$^{1}$}
-\UnaryInfC{$P$}
-\AXC{$P\to Q$}
-\RL{$\to_E$}
-\BIC{$Q^2$}
-\AXC{$Q\to R$}
-\RL{$\to_E$}
-\BIC{$R$}
-\AXC{$Q$}
-\RL{Rit$^2$}
-\UIC{$Q$}
-\RL{$\wedge_I$}
-\BIC{$Q\wedge R$}
-\RL{$\to_I$$^1$}
-\UIC{$P\to Q\wedge R$}
-\end{prooftree}
+$$\begin{prooftree}
+  \AxiomC{$P\land Q$} \UnaryInfC{$Q$}
+    \end{prooftree}$$
