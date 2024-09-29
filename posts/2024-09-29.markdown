@@ -5,7 +5,7 @@
 $E = mc^2$
 
 ## 증명 나무 연습
-[\begin{prooftree}
+\begin{prooftree}
 \AxiomC{}
 \RightLabel{Hyp$^{1}$}
 \UnaryInfC{$P$}
@@ -22,4 +22,4 @@ $E = mc^2$
 \BIC{$Q\wedge R$}
 \RL{$\to_I$$^1$}
 \UIC{$P\to Q\wedge R$}
-\end{prooftree}]
+\end{prooftree}
