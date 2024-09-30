@@ -22,3 +22,15 @@ Term 2 with *inline markup*
       { some code, part of Definition 2 }
 
   Third paragraph of definition 2.
+
+## 증명 나무 연습
+$$
+\begin{prooftree}
+\AxiomC{}
+\UnaryInfC{$0 \in S$}
+\end{prooftree}
+$$
+
+$$
+E = mc^2
+$$
