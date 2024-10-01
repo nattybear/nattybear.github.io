@@ -63,3 +63,19 @@ $S$는 집합 $N$에 포함되고 아래 두 속성을 만족하는 가장 작�
 
 1. $0 \in S$  
 1. 만약 $n \in S$라면 $n + 3 \in S$
+
+## 정의 (추론 규칙)
+
+$$
+\begin{prooftree}
+\AxiomC{}
+\UnaryInfC{$0 \in S$}
+\end{prooftree}
+$$
+
+$$
+\begin{prooftree}
+\AxiomC{$n \in S$}
+\UnaryInfC{$(n+3) \in S$}
+\end{prooftree}
+$$
