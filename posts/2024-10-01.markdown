@@ -49,3 +49,9 @@ compile $ pandocCompilerWith readerOptions writerOptions
 [^4]: [https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html](https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html)
 
 각주 다음에 문장이 있을 때 각주는 어디에 표시될까?
+
+## 정의
+
+자연수 $n$은 아래 조건을 만족할 때 집합 $S$에 속한다.
+1. $n = 0$ 또는
+1. $n - 3 \in S$
