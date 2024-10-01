@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          stack --stack-yaml my-stack.yaml build
+          stack --stack-yaml stack.yaml build
           stack exec myblog build
       - uses: actions/upload-pages-artifact@v3
         with:
