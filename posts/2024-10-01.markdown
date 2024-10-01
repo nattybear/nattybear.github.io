@@ -6,7 +6,7 @@ Hakyll로 만든 정적 사이트에 증명 나무를 표시하려면 아래와 
 
 ### MathJax
 
-`templates/default.html`에 아래와 같은 코드를 넣어야 한다.
+`templates/default.html`에 아래와 같은 코드를 넣어야 한다.[^3]
 
 ```html
 <script id="MathJax-script" async
@@ -31,7 +31,7 @@ build-depends: hakyll,
 Text.Pandoc.Options
 ```
 
-`site.hs` 파일 중간에 포스트를 처리하는 부분의 코드를 아래와 같이 변경한다.
+`site.hs` 파일 중간에 포스트를 처리하는 부분의 코드를 아래와 같이 변경한다.[^2][^4]
 
 ```haskell
 let readerOptions = defaultHakyllReaderOptions
@@ -40,14 +40,12 @@ let readerOptions = defaultHakyllReaderOptions
 compile $ pandocCompilerWith readerOptions writerOptions
 ```
 
-### 외부 링크
-* [https://wizzup.github.io/posts/hakyll-mathjax/](https://wizzup.github.io/posts/hakyll-mathjax/)
-* [https://www.mathjax.org/#gettingstarted](https://www.mathjax.org/#gettingstarted)
-* [https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html](https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html)
-
 ## 각주 연습
 이 문단에서는 마크다운 각주를 연습한다.[^1]
 
 [^1]: 이것은 각주입니다.
+[^2]: [https://wizzup.github.io/posts/hakyll-mathjax/](https://wizzup.github.io/posts/hakyll-mathjax/)
+[^3]: [https://www.mathjax.org/#gettingstarted](https://www.mathjax.org/#gettingstarted)
+[^4]: [https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html](https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html)
 
 각주 다음에 문장이 있을 때 각주는 어디에 표시될까?
