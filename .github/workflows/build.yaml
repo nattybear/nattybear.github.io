@@ -8,15 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/cache@v4
-        with:
-          path: |
-            ~/.stack
-            .stack-work
-          key: ${{ runner.os }}-${{ hashFiles('**/stack.yaml.lock') }}
-          save-always: true
       - run: |
-          stack build
+          stack --stack-yaml my-stack.yaml build
           stack exec myblog build
       - uses: actions/upload-pages-artifact@v3
         with:
