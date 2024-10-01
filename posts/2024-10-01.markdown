@@ -53,5 +53,6 @@ compile $ pandocCompilerWith readerOptions writerOptions
 ## 정의
 
 자연수 $n$은 아래 조건을 만족할 때 집합 $S$에 속한다.
-1. $n = 0$ 또는
+
+1. $n = 0$ 또는  
 1. $n - 3 \in S$
