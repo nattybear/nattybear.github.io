@@ -102,8 +102,8 @@ $$
 
 $$
 \begin{prooftree}
-\AxiomC{$n \in 정수$}
-\UnaryInfC{$l \in 정수리스트$}
+\AXC{$n \in 정수$}
+\AXC{$l \in 정수리스트$}
 \BIC{$(n.l) \in 정수리스트$}
 \end{prooftree}
 $$
