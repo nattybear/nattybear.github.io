@@ -44,3 +44,10 @@ compile $ pandocCompilerWith readerOptions writerOptions
 * [https://wizzup.github.io/posts/hakyll-mathjax/](https://wizzup.github.io/posts/hakyll-mathjax/)
 * [https://www.mathjax.org/#gettingstarted](https://www.mathjax.org/#gettingstarted)
 * [https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html](https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html)
+
+## 각주 연습
+이 문단에서는 마크다운 각주를 연습한다.[^1]
+
+[^1]: 이것은 각주입니다.
+
+각주 다음에 문장이 있을 때 각주는 어디에 표시될까?
