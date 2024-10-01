@@ -28,7 +28,10 @@ main = hakyllWith config $ do
 
     match "posts/*" $ do
         route $ setExtension "html"
-        compile $ pandocCompiler
+        let readerOptions = defaultHakyllReaderOptions
+            writerOptions = defaultHakyllWriterOptions
+                            { writerHTMLMathMethod = MathJax "" }
+        compile $ pandocCompilerWith readerOptions writerOptions
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
