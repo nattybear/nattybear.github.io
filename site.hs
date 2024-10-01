@@ -1,7 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 import           Hakyll
-import           Text.Pandoc.Highlighting (Style, breezeDark, styleToCss)
+import           Text.Pandoc.Highlighting
 import           Text.Pandoc.Options
 
 config :: Configuration
@@ -73,7 +73,7 @@ postCtx =
   defaultContext
 
 pandocCodeStyle :: Style
-pandocCodeStyle = breezeDark
+pandocCodeStyle = haddock
 
 pandocCompiler' :: Compiler (Item String)
 pandocCompiler' =
