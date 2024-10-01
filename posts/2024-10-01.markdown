@@ -93,3 +93,17 @@ $$
 
 1. $() \in 정수리스트$  
 1. 만약 $n \in 정수$이고 $l \in 정수리스트$이면 $(n . l) \in 정수리스트$이다.
+
+## 정의 1.1.5 (추론 규칙)
+
+$$
+() \in 정수리스트
+$$
+
+$$
+\begin{prooftree}
+\AxiomC{$n \in 정수$}
+\UnaryInfC{$l \in 정수리스트$}
+\BIC{$(n.l) \in 정수리스트$}
+\end{prooftree}
+$$
