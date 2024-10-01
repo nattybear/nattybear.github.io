@@ -9,7 +9,9 @@ Hakyll로 만든 정적 사이트에 증명 나무를 표시하려면 아래와 
 `templates/default.html`에 아래와 같은 코드를 넣어야 한다.
 
 ```html
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 ```
 
 이때 MathJax 버전 2는 안 되고 3을 써야 한다.
@@ -39,6 +41,6 @@ compile $ pandocCompilerWith readerOptions writerOptions
 ```
 
 ### 외부 링크
-* [https://wizzup.github.io/posts/hakyll-mathjax/]()
-* [https://www.mathjax.org/#gettingstarted]()
-* [https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html]()
+* [https://wizzup.github.io/posts/hakyll-mathjax/](https://wizzup.github.io/posts/hakyll-mathjax/)
+* [https://www.mathjax.org/#gettingstarted](https://www.mathjax.org/#gettingstarted)
+* [https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html](https://jaspervdj.be/hakyll/tutorials/03-rules-routes-compilers.html)
