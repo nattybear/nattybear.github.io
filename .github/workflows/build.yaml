@@ -8,8 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: freckle/stack-cache-action@v2
       - run: |
-          stack --stack-yaml stack.yaml build
+          stack build
           stack exec myblog build
       - uses: actions/upload-pages-artifact@v3
         with:
