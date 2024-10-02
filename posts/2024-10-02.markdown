@@ -1,4 +1,7 @@
 ## 그분의 풀네임
 프로그래밍 언어 하스켈을 만든 사람 중에 SPJ라는 분이 있다. 지금까지 이분의 풀네임이 Simon Peyton Jones인줄 알았다. 그런데 검색하다가 우연히 이분의 이름이 Simon L. Peyton Jones라고 적혀 있는 것을 봤다.[^1] Simon과 Peyton 사이에 중간 이름이 하나 더 있었다니! 저 L은 어떤 이름의 약자일까?
 
-[^1]: []()
+인터넷을 좀 검색해봤는데 L이 무엇의 약자인지 찾을 수가 없었다. 그래서 ChatGPT에게 물어봤더니 L은 Leslie의 약자라고 했다.[^2] Leslie는 스코틀랜드의 지명에서 유래한 이름이라고 한다. ~~믿거나 말거나.~~
+
+[^1]: [https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=59542867](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=59542867)
+[^2]: [https://chatgpt.com/share/66fd1b18-ae2c-800c-b355-e689cc2f6d5c](https://chatgpt.com/share/66fd1b18-ae2c-800c-b355-e689cc2f6d5c)
