@@ -51,6 +51,8 @@ $$
 
 [^3]: [문맥 자유 문법 - 위키백과](https://ko.wikipedia.org/wiki/%EB%AC%B8%EB%A7%A5_%EC%9E%90%EC%9C%A0_%EB%AC%B8%EB%B2%95)
 
-교재 **Essentials of Programming Languages** 10쪽에서는 다음과 같은 설명이 나온다.
+교재 *Essentials of Programming Languages* 10쪽에서는 다음과 같은 설명이 나온다.
 
 > These grammars are said to be *context-free* because a rule defining a given syntactic category may be applied in any context that makes reference to that syntactic category.
+> ...
+> Because of this additional constraint, not every syntactic derivation from *Binary-search-tree* leads to a correct binary search tree. To determine whether a particular production can be applied in a particular syntactic derivation, we have to look at the context in which the production is applied. Such constraints are called *context-sensitive constraints* or *invariants*.
