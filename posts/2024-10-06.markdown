@@ -13,3 +13,13 @@ $$
 위에 적은 것은 BNF는 아니다. 위에 적은 것은 *grammars*라고 한다.[^1]
 
 [^1]: Essentials of Programming Languages 6쪽.
+
+## The Little ~er
+이 문단에 제목이 "The Little ~er"과 비슷한 형식인 책의 목록을 정리한다.
+* The Little LISPer
+* The Little Schemer
+* The Seasoned Schemer
+* The Reasoned Schemer
+* The Little Typer
+* The Little Prover
+* The Little Haskeller
