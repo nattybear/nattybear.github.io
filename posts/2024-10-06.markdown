@@ -38,3 +38,13 @@ Binary{\text -}search{\text -}tree\ ::= ()\ |\ (Int Binary{\text -}search{\text 
 \end{align}
 $$
 
+위 문법은 각 노드 구조를 정확하게 설명하지만 다음과 같은 두갈래 나무 특성은 표현하지 못한다.
+
+* 왼쪽 자식 나무의 모든 키는 현재 노드의 키보다 작거나 같아야 한다.
+* 오른쪽 자식 나무의 모든 키는 현재 노드의 키보다 크거나 같아야 한다.
+
+이와 같이 특성(문맥)을 표현하지 못한 문법을 *문맥 자유 문법*(Context-free grammar, CFG)이라고 한다.
+
+위키백과의 해당 문서에서는 문맥 자유 문법을 어려운 말로 설명했다.[^3]
+
+[^3]: [https://ko.wikipedia.org/wiki/%EB%AC%B8%EB%A7%A5_%EC%9E%90%EC%9C%A0_%EB%AC%B8%EB%B2%95](문맥 자유 문법 - 위키백과)
