@@ -47,4 +47,4 @@ $$
 
 위키백과의 해당 문서에서는 문맥 자유 문법을 어려운 말로 설명했다.[^3]
 
-[^3]: [https://ko.wikipedia.org/wiki/%EB%AC%B8%EB%A7%A5_%EC%9E%90%EC%9C%A0_%EB%AC%B8%EB%B2%95](문맥 자유 문법 - 위키백과)
+[^3]: [문맥 자유 문법 - 위키백과](https://ko.wikipedia.org/wiki/%EB%AC%B8%EB%A7%A5_%EC%9E%90%EC%9C%A0_%EB%AC%B8%EB%B2%95)
