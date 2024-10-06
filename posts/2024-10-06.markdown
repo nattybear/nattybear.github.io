@@ -34,7 +34,7 @@ $$
 
 $$
 \begin{align}
-Binary{\text -}search{\text -}tree\ ::= ()\ |\ (Int Binary{\text -}search{\text -}tree\ Binary{\text -}search{\text -}tree)
+Binary{\text -}search{\text -}tree\ ::= ()\ |\ (Int\ Binary{\text -}search{\text -}tree\ Binary{\text -}search{\text -}tree)
 \end{align}
 $$
 
