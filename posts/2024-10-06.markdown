@@ -25,3 +25,16 @@ $$
 * The Little Typer
 * The Little Prover
 * The Little Haskeller
+
+## 문맥 자유 문법
+
+아래와 같은 두갈래 나무(binary tree)[^2]에서 노드는 비어 있거나, 정수 하나와 두갈래 나무 두 개를 포함한다.
+
+[^2]: SNU 4190.310 Programming Languages Lecture Notes
+
+$$
+\begin{align}
+Binary-search-tree\ ::= () | (Int Binary-search-tree Binary-search-tree)
+\end{align}
+$$
+
