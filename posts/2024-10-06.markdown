@@ -15,7 +15,9 @@ $$
 [^1]: Essentials of Programming Languages 6쪽.
 
 ## The Little ~er
+
 이 문단에 제목이 "The Little ~er"과 비슷한 형식인 책의 목록을 정리한다.
+
 * The Little LISPer
 * The Little Schemer
 * The Seasoned Schemer
