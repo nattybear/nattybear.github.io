@@ -17,3 +17,16 @@
       0
       (+ 1 (list-length (cdr lst))))))
 ```
+
+리스트 $n$번째 원소를 알아내는 프로시저는 다음과 같이 정의한다.
+```scheme
+;; nth-element : List X Int -> SchemeVal
+;; usage: (nth-element lst n) = the n-th element of lst
+(define nth-element
+ (lambda (lst n)
+   (if (null? lst)
+     (report-list-too-short n)
+     (if (zero? n)
+       (car lst)
+       (nth-element (cdr lst) (- n 1))))))
+```
