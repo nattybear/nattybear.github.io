@@ -29,4 +29,9 @@
      (if (zero? n)
        (car lst)
        (nth-element (cdr lst) (- n 1))))))
+
+(define report-list-too-short
+  (lambda (n)
+    (eopl:error 'nth-element
+      "List too short by ~s elements.~%" (+ n 1))))
 ```
