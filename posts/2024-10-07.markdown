@@ -18,7 +18,9 @@
       (+ 1 (list-length (cdr lst))))))
 ```
 
-리스트 $n$번째 원소를 알아내는 프로시저는 다음과 같이 정의한다.
+리스트 $n$번째 원소를 알아내는 프로시저는 다음과 같이 정의한다. 
+
+
 ```scheme
 ;; nth-element : List X Int -> SchemeVal
 ;; usage: (nth-element lst n) = the n-th element of lst
@@ -34,4 +36,26 @@
   (lambda (n)
     (eopl:error 'nth-element
       "List too short by ~s elements.~%" (+ n 1))))
+```
+
+위 코드에서 프로시저 `eopl:error`를 사용하려면 Racket 패지키 `eopl`을 사용해야 한다.[^2]
+
+[^2]: [https://docs.racket-lang.org/eopl/index.html](https://docs.racket-lang.org/eopl/index.html)
+
+macOS에서 Racket을 설치하려면 터미널에 아래와 같이 입력한다.
+
+```
+brew install racket
+```
+
+Racket 패키지 `eopl`을 설치하려면 다음과 같이 입력한다.(예제가 많아서 그런지 의존성도 많고 패키지 설치 시간도 오래 걸린다.)
+
+```
+raco pkg install eopl
+```
+
+Racket 패키지를 가져오려면 프로시저 `require`를 사용한다.
+
+```
+(require eopl)
 ```
