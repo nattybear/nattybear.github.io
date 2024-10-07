@@ -25,12 +25,12 @@
 ;; nth-element : List X Int -> SchemeVal
 ;; usage: (nth-element lst n) = the n-th element of lst
 (define nth-element
- (lambda (lst n)
-   (if (null? lst)
-     (report-list-too-short n)
-     (if (zero? n)
-       (car lst)
-       (nth-element (cdr lst) (- n 1))))))
+  (lambda (lst n)
+    (if (null? lst)
+      (report-list-too-short n)
+      (if (zero? n)
+        (car lst)
+        (nth-element (cdr lst) (- n 1))))))
 
 (define report-list-too-short
   (lambda (n)
