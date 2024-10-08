@@ -2,7 +2,7 @@
 
 프로시저 ```remove-first```는 다음과 같이 구현할 수 있다.
 
-```
+```scheme
 ;; remove-first : Sym X Listof(Sym) -> Listof(Sym)
 ;; usage: (remove-first s los) returns a list with
 ;;        the same elements arranged in the same
