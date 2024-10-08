@@ -1,0 +1,18 @@
+## Essentials of Programming Languages
+
+프로시저 ```remove-first```는 다음과 같이 구현할 수 있다.
+
+```
+;; remove-first : Sym X Listof(Sym) -> Listof(Sym)
+;; usage: (remove-first s los) returns a list with
+;;        the same elements arranged in the same
+;;        order as los, except that the first
+;;        occurrence of the symbol s in removed.
+(define remove-first
+  (lambda (s los)
+    (if (null? los)
+      '()
+      (if (eqv? (car los) s)
+        (cdr los)
+        (cons (car los) (remove-first s (cdr los)))))))
+```
