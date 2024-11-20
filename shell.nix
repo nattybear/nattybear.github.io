@@ -5,6 +5,7 @@ pkgs.mkShell {
     pkgs.haskellPackages.hakyll
     pkgs.haskellPackages.cabal-install
     pkgs.haskellPackages.ghc
+    pkgs.glibc_2_33
   ];
 
   shellHook = ''
