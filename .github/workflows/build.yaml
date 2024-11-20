@@ -8,17 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/cache@v4
+      - uses: cachix/install-nix-action@v20
         with:
-          path: ~/.stack
-          key: ${{ runner.os }}-${{ hashFiles('stack.yaml.lock') }}
-      - uses: actions/cache@v4
-        with:
-          path: .stack-work
-          key: ${{ runner.os }}-${{ hashFiles('site.hs') }}
-      - run: |
-          stack build
-          stack exec myblog build
+          nix_path: nixpkgs=channel:nixpkgs-unstable
+      - uses: cachix/cachix-action@v12
+      - run: nix-shell --run "cabal build && cabal exec myblog build"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs
