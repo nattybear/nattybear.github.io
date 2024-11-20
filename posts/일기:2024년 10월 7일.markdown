@@ -1,3 +1,7 @@
+---
+date: 2024-10-07
+---
+
 ## Deriving Recursive Programs
 
 > **The Smaller-Subproblem Principle**  
