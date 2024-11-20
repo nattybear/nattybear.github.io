@@ -1,14 +1,14 @@
 { pkgs ? import <nixpkgs> {} }:
 
-pkgs.mkShell {
+let
+  customPkgs = pkgs // {
+    glibc = pkgs.glibc.override { version = "2.33"; };
+  };
+in
+customPkgs.mkShell {
   buildInputs = [
-    pkgs.haskellPackages.hakyll
-    pkgs.haskellPackages.cabal-install
-    pkgs.haskellPackages.ghc
-    pkgs.glibc_2_33
+    customPkgs.haskellPackages.hakyll
+    customPkgs.haskellPackages.cabal-install
+    customPkgs.haskellPackages.ghc
   ];
-
-  shellHook = ''
-    export CFLAGS="-D_GLIBCXX_USE_CXX11_ABI=0"
-  '';
 }
