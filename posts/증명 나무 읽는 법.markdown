@@ -1,0 +1,23 @@
+---
+date: 2024-11-21
+---
+
+## 증명 나무 읽는 법
+
+$$
+\begin{prooftree}
+\AxiomC{}
+\UnaryInfC{$0 \in S$}
+\end{prooftree}
+$$
+
+$$
+\begin{prooftree}
+\AxiomC{$n \in S$}
+\UnaryInfC{$(n+3) \in S$}
+\end{prooftree}
+$$
+
+각 항목은 추론 규칙(rule of inference) 또는 간단히 규칙(rule)이라고 부른다. 수평선은 "만약-그러면(if-then)"으로 읽는다. 수평선 위 부분은 가정(hypothesis) 또는 전제(antecedent)이고 수평선 아래 부분은 결론(conclusion) 또는 결과(consequent)이다. 두 개 이상의 가정이 나열된 경우 암시적으로 "그리고(and)"로 연결된다. 가정이 없는 규칙은 공리(axiom)라고 부른다. 공리는 다음과 같이 수평선을 생략할 수 있다.
+
+$0 \in S$
