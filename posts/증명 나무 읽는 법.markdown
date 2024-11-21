@@ -2,8 +2,6 @@
 date: 2024-11-21
 ---
 
-## 증명 나무 읽는 법
-
 $$
 \begin{prooftree}
 \AxiomC{}
