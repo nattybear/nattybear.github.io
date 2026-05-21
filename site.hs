@@ -80,6 +80,6 @@ pandocCompiler' =
   pandocCompilerWith
     defaultHakyllReaderOptions
     defaultHakyllWriterOptions
-      { writerHighlightStyle = Just pandocCodeStyle
-      , writerHTMLMathMethod = MathJax ""
+      { writerHighlightMethod = Skylighting pandocCodeStyle
+      , writerHTMLMathMethod  = MathJax ""
       }
